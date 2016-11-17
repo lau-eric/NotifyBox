@@ -10,6 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func checkMailButton(_ sender: UIButton) {
+        if(testFlag) {
+            textLabel.text = mailYes
+            testFlag = !testFlag
+        }
+        else {
+            textLabel.text = mailNo
+            testFlag = !testFlag
+        }
+    }
+    @IBOutlet weak var textLabel: UILabel!
+    
+    var testFlag = false
+    var mailYes = "You've got mail!"
+    var mailNo = "Empty mailbox :("
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +36,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 
