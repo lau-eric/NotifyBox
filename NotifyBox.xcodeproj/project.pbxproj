@@ -417,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZ95ZE7XL3;
 				INFOPLIST_FILE = NotifyBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eric.NotifyBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZ95ZE7XL3;
 				INFOPLIST_FILE = NotifyBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eric.NotifyBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +516,7 @@
 				07C9DA911DDD875F00E1A0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C9DA921DDD875F00E1A0FA /* Build configuration list for PBXNativeTarget "NotifyBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +525,7 @@
 				07C9DA941DDD875F00E1A0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C9DA951DDD875F00E1A0FA /* Build configuration list for PBXNativeTarget "NotifyBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +534,7 @@
 				07C9DA971DDD875F00E1A0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

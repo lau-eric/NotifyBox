@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var appLabel: UILabel!
+    
+    
     @IBAction func checkMailButton(_ sender: UIButton) {
         if(testFlag) {
             textLabel.text = mailYes
